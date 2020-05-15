@@ -19,3 +19,8 @@ class EmailParser
   end
 
 end
+
+emails = "parker@flatiron.school, testing@learningtocode.help"
+parser = EmailParser.new(emails)
+
+puts parser.parse 
